@@ -1,0 +1,19 @@
+syntax on
+
+set nu
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+" replace tab by backspace
+set expandtab
+set autoindent
+set smartindent
+set cindent
+set mouse=v
+set scrolloff=5
+set hls
+set incsearch
+set ruler
+set showmatch
+set nocompatible
+set backspace=2
