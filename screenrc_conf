@@ -1,0 +1,7 @@
+## bottom bar
+caption always "%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %=%d %M %0c %{g}%H%{-}"
+## scrolling
+termcapinfo xterm|xterms|xs ti@:te=\E[2J
+#termcapinfo xterm* ti@:te@
+## when close vim, no txt appears on the screen
+altscreen on
